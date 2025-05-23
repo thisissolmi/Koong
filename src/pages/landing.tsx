@@ -1,6 +1,5 @@
 // pages/landing.tsx
 import StartButton from "@/components/startbutton";
-import heartImage from "../assets/3a96134c-af02-44b3-acb8-358b87f88dd7.png";
 
 export default function LandingPage() {
   return (
