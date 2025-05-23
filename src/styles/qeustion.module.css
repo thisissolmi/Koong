@@ -1,0 +1,124 @@
+.container {
+  min-height: 100vh;
+  background-color: #f4f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.heartWrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.heart {
+  font-size: 3.5rem;
+}
+
+.questionNumber {
+  color: #1b1b1b;
+  font-family: Pretendard;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.85px;
+  margin-top: 0.5rem;
+}
+
+.questionText {
+  color: #1b1b1b;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.6px;
+  margin-top: 0.5rem;
+}
+
+.highlight {
+  color: #ec4899;
+  font-weight: 600;
+}
+
+.options {
+  width: 100%;
+  max-width: 494px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  display: flex;
+  height: 54px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1b1b1b;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.option:hover {
+  background-color: #f8f8f8;
+}
+
+.selected {
+  background: #fce7f3;
+  border-color: #f9a8d4;
+  font-weight: 600;
+}
+
+.nextButton {
+  display: flex;
+  width: 494px;
+  height: 56px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #cecccf;
+  color: white;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.nextButton:hover {
+  background-color: #bab8ba;
+}
+
+.nextButton:disabled {
+  cursor: not-allowed;
+  background: #cecccf;
+  opacity: 0.7;
+}
+
+.selected {
+  background: #EA4766 !important;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
