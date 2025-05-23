@@ -1,41 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+💘 서비스명: 하트미터 (HeartMeter, 줄여서 Heart M)
+👥 팀명: 빈지노와 아이들 (Beenzino etc.. per)
+🎯 Target
+이성에게 호감은 느끼지만, 그 감정이 진짜 사랑인지 단순한 호기심인지 헷갈리는 사람들.
+확신이 없어 자신의 감정을 상대에게 표현하기 어려워하는 이들을 위한 서비스입니다.
 
-## Getting Started
+⚠️ 문제 원인
+많은 사람들이 누군가에게 끌리는 감정을 느끼면서도,
+그 감정이 진심인지 아니면 외로움이나 호기심에서 비롯된 것인지 스스로도 잘 구분하지 못합니다.
+결국, 정확한 감정 표현을 회피하게 되는 문제가 생깁니다.
 
-First, run the development server:
+💡 Solution
+연애 감정을 묻는 설문 형식을 통해, 직접 말로 표현하기 어려운 감정들을 스스로 정리할 수 있도록 도와줍니다.
+설문에는 상대방의 이름을 입력하게 함으로써 감정 몰입도를 높이고,
+막연했던 감정을 더 구체적으로 마주하게 만듭니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+"이게 정말 좋아하는 걸까?"라는 고민에, 자가 진단 형식의 감정 설문을 통해
+스스로 그 답을 찾아갈 수 있게 도와주는 웹 기반 솔루션입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📍 Before
+내 감정이 사랑인지, 외로움인지 구분하지 못함
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+상대방에 대한 확신 부족으로 표현을 망설임
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+감정을 명확히 알지 못해, 솔직한 표현을 회피
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+🌸 After
+모호했던 감정의 성격을 명확히 인식
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+감정에 대한 확신을 가지고, 정확한 표현이 가능해짐
 
-## Learn More
+상대에게 진심을 더 구체적이고 솔직하게 전달할 수 있게 됨
 
-To learn more about Next.js, take a look at the following resources:
+🌼 감정의 개화란?
+‘개화’는 마음속 감정이 확신으로 피어나는 전환점입니다.
+마음속 애매했던 감정이 분명해지고, 그것이 곧 두 사람의 관계가 시작되는 출발점이 됩니다.
+하트미터는 그 개화의 순간을 함께하는 감정 탐색 도구입니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🛠️ 개발 기간
+(여기에 실제 소요된 개발 기간을 적어주세요)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💭 프로젝트 동기
+(왜 이 아이디어를 선택하게 되었는지, 어떤 문제의식에서 출발했는지를 여기에 적어주세요)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-# Koong
