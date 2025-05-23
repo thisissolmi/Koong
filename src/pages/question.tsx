@@ -12,7 +12,7 @@ export default function QuestionCard() {
       {/* 상단: 하트 + 질문 */}
       <div className={styles.header}>
         <div className={styles.heartWrapper}>
-          <div className={styles.heart}>❤️</div>
+          <div className={styles.heart}> ❤️ </div>
         </div>
         <h2 className={styles.questionNumber}>Q7.</h2>
         <p className={styles.questionText}>
