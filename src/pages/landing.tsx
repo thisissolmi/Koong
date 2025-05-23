@@ -9,7 +9,7 @@ export default function LandingPage() {
         <div className="text-sm text-rose-500 font-semibold mb-2">
           00명이 지금 테스트에 참여하고 있어요! 
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold mb-3">혹시 나.. hoxy.. 짝사랑 중일까?</h1>
+        <h1 className="text-2xl md:text-3xl font-bold mb-3">hoxy..나.. 짝사랑 중일까?</h1>
         <p className="text-gray-700 mb-6">
           마음이 살랑거릴 때, 조심스럽게 내 감정을 들여다보는 시간. <br />
           아래 질문들을 하나씩 천천히 읽어보고, 내 마음에 가장 가까운 정도를 골라보자.
